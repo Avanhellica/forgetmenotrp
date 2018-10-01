@@ -1,0 +1,401 @@
+/****************************************
+ Application by LITTLE DOVE
+*****************************************/
+
+.lds-bg { 
+  width: 450px; 
+  background: #e2e2e2; 
+  padding: 5px; 
+  border: 1px solid #ccc; }
+
+.lds-tbg { 
+  width: 450px; 
+  height: 180px; 
+  background: url(https://i.postimg.cc/P5D1q0Mp/flowers.jpg); 
+  background-position: center !important; }
+
+.lds-fn { 
+  width: 450px; 
+  font: 70px/70px hello; 
+  text-transform: lowercase;
+  text-shadow: -2px 2px 0px #222;
+  color: rgba(214,175,173,1); 
+  text-align: center; 
+  padding-top: 40px; }
+
+.lds-ln { 
+  width: 450px; 
+  font: 400 30px/30px poppins; 
+  color: #eee; 
+  letter-spacing: -1px; 
+  text-align: center; 
+  text-transform: lowercase; 
+  color: rgba(226, 226, 226, 1);
+  text-shadow: -1px 1px 0px rgba(255,255,255,0.3); 
+  position: relative; 
+  top: -15px; 
+}
+.lds-bl { 
+  width: 250px; 
+  height: 1px; 
+  background: rgba(226, 226, 226, 1); 
+}
+.lds-ti { 
+  width: 450px; 
+  height: 25px; 
+  background: rgba(214,175,173,1); 
+  color: #444; 
+  font: 10px/25px poppins;
+  letter-spacing: 1px;
+  text-transform: uppercase; 
+  text-align: center; 
+}
+
+.lds-wbg { 
+  width: 390px; 
+  padding: 30px; 
+  background: #eee; 
+}
+
+.lds-wbg h1 { 
+  width: 390px; 
+  font: 400 20px/30px poppins; 
+  text-transform: uppercase; 
+  color: #d6afad; 
+  letter-spacing: 2px; 
+  text-align: left; 
+  border-bottom: 1px solid #ccc;
+}
+
+.lds-wtxt { 
+  width: 370px; 
+  height: 200px;
+  padding: 10px; 
+  font: 12px lato; 
+  line-height:1.2;
+  color: #444; 
+  text-align: justify; 
+  overflow:auto;
+  overflow-x: hidden;
+}
+
+.lds-wtxt b { 
+  font-family: montserrat;
+  font-size: 10px;
+  color: #d6afad; 
+  text-transform: uppercase; 
+}
+
+.lds-wtxt blockquote { 
+  background: #e2e2e2;
+  border: 1px solid #ccc;
+  color:#444;
+  padding: 15px; 
+  margin: 5px; 
+  margin-left: -1px; 
+  margin-bottom: 0px; 
+}
+.lds-wabg { 
+  width: 450px; 
+  background: #fff;
+}
+
+.lds-babg { 
+  width: 390px; 
+  height: 110px; 
+  background: rgba(214,175,173, 0.4); 
+  padding: 30px; 
+}
+.lds-aimg1b { 
+  width: 100px; 
+  height: 100px; 
+  background: rgba(255,255,255,0.5); 
+  border: 1px solid rgba(214,175,173, 0.6); 
+  padding: 4px; 
+  float: left; 
+  margin-right: 29px; 
+}
+
+.lds-aimg1 { 
+  width: 100px; 
+  height: 100px; 
+  background-position: center !important; 
+  background-size: cover !important; 
+}
+
+.lds-babg2 { 
+  width: 390px; 
+  height: 80px; 
+  background: rgba(214,175,173, 0.4); 
+  padding: 30px; 
+}
+
+.lds-babg23 { 
+  width: 390px; 
+  background: rgba(214,175,173, 0.4); 
+  padding: 30px; 
+}
+
+.lds-aimg2b { 
+  width: 170px; 
+  height: 80px; 
+  ackground: rgba(255,255,255,0.5); 
+  border: 1px solid rgba(214,175,173, 0.6); 
+  padding: 4px; 
+  float: left; 
+  margin-right: 29px; 
+}
+
+.lds-aimg2 { 
+  width: 170px; 
+  height: 80px; 
+  background-position: center !important; 
+  background-size: cover !important; 
+}
+
+.lds-pibg { 
+  width: 410px; 
+  height: 50px; 
+  background: rgba(214,175,173); 
+  padding: 20px; 
+}
+
+.lds-pit { 
+  width: 100px; 
+  height: 20px; 
+  font: 400 8px/20px poppins; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  text-align: center; 
+  color: #444; 
+  padding-top: 5px; 
+}
+
+.lds-pia { 
+  width: 100px; 
+  height: 20px; 
+  font: italic 10px/20px montserrat;
+  font-weight:700;
+  color: #444; 
+  text-align: center; 
+  text-transform: lowercase; 
+}
+
+.lds-pid { 
+  width: 3px; 
+  height: 43px; 
+  text-align: center; 
+  color: rgba(255,255,255,0.4); 
+  line-height: 50px; 
+  font-size: 20px; 
+  padding-top: 5px; 
+}
+
+.lds-wtxtfree { 
+  height: 180px; 
+  overflow: auto;
+  padding: 10px; 
+  font: 12px lato; 
+  color: #444; 
+  text-align: justify; 
+  overflow-x: hidden;
+}
+
+.lds-wtxtpla { 
+  height: 80px; 
+  overflow: auto;
+  padding: 10px; 
+  font: 12px lato; 
+  color: #444; 
+  text-align: justify; 
+  overflow-x: hidden;
+}
+
+.lds-wtxtan { 
+  height: 80px; 
+  overflow: auto;
+  padding: 10px; 
+  font: 12px lato; 
+  color: #444; 
+  text-align: justify; 
+  overflow-x: hidden;
+}
+
+.lds-wtxtoth { 
+  height: 80px; 
+  overflow: auto;
+  padding: 10px; 
+  font: 12px lato; 
+  color: #444; 
+  text-align: justify; 
+  overflow-x: hidden;
+}
+
+#app-creations .lds-tbg { 
+  background: url(https://media.discordapp.net/attachments/424625590889480192/495683433360654338/t4.png); }
+
+#app-creations .lds-fn { 
+  color:#99cc99; }
+
+#app-creations .lds-wbg h1 {
+  color:#99cc99; }
+
+#app-creations .lds-ti { 
+  background: #99cc99;  }
+
+#app-creations .lds-wtxt b { 
+  color:#99cc99; }
+
+#app-creations .lds-babg { 
+  background: rgba(153, 204, 153, 0.4); }
+
+#app-creations .lds-aimg1b { 
+  border: 1px solid rgba(153, 204, 153, 0.6); }
+
+#app-creations .lds-babg2 { 
+  background: rgba(153, 204, 153, 0.4); }
+
+#app-creations .lds-aimg2b { 
+  border: 1px solid rgba(153, 204, 153, 0.6); }
+
+#app-creations .lds-pibg { 
+  background: rgba(153, 204, 153); }
+
+
+#app-defilers .lds-tbg { 
+  background: url(https://cdn.discordapp.com/attachments/424625590889480192/495683436548194314/t5.png); }
+
+#app-defilers .lds-fn { 
+  color:#d98c8c; }
+
+#app-defilers .lds-wbg h1 {
+  color:#d98c8c; }
+
+#app-defilers .lds-ti { 
+  background: #d98c8c;  }
+
+#app-defilers .lds-wtxt b { 
+  color:#d98c8c; }
+
+#app-defilers .lds-babg { 
+  background: rgba(217, 140, 140, 0.4); }
+
+#app-defilers .lds-aimg1b { 
+  border: 1px solid rgba(217, 140, 140, 0.6); }
+
+#app-defilers .lds-babg2 { 
+  background: rgba(217, 140, 140, 0.4); }
+
+#app-defilers .lds-aimg2b { 
+  border: 1px solid rgba(217, 140, 140, 0.6); }
+
+#app-defilers .lds-pibg { 
+  background: rgba(217, 140, 140); }
+
+
+#app-divinity .lds-tbg { 
+  background: url(https://cdn.discordapp.com/attachments/424625590889480192/495683431037140993/t3.png); }
+
+#app-divinity .lds-fn { 
+  color:#d4c377; }
+
+#app-divinity .lds-wbg h1 {
+  color:#d4c377; }
+
+#app-divinity .lds-ti { 
+  background: #d4c377;  }
+
+#app-divinity .lds-wtxt b { 
+  color:#d4c377; }
+
+#app-divinity .lds-babg { 
+  background: rgba(212, 195, 119, 0.4); }
+
+#app-divinity .lds-aimg1b { 
+  border: 1px solid rgba(212, 195, 119, 0.6); }
+
+#app-divinity .lds-babg2 { 
+  background: rgba(212, 195, 119, 0.4); }
+
+#app-divinity .lds-aimg2b { 
+  border: 1px solid rgba(212, 195, 119, 0.6); }
+
+#app-divinity .lds-pibg { 
+  background: rgba(212, 195, 119); }
+
+
+#app-immortals .lds-tbg { 
+  background: url(https://cdn.discordapp.com/attachments/424625590889480192/495683427354411008/t2.png); }
+
+#app-immortals .lds-fn { 
+  color:#a799cc; }
+
+#app-immortals .lds-wbg h1 {
+  color:#a799cc; }
+
+#app-immortals .lds-ti { 
+  background: #a799cc;  }
+
+#app-immortals .lds-wtxt b { 
+  color:#a799cc; }
+
+#app-immortals .lds-babg { 
+  background: rgba(167, 153, 204, 0.4); }
+
+#app-immortals .lds-aimg1b { 
+  border: 1px solid rgba(167, 153, 204, 0.6); }
+
+#app-immortals .lds-babg2 { 
+  background: rgba(167, 153, 204, 0.4); }
+
+#app-immortals .lds-aimg2b { 
+  border: 1px solid rgba(167, 153, 204, 0.6); }
+
+#app-immortals .lds-pibg { 
+  background: rgba(167, 153, 204); }
+
+
+#app-mortals .lds-tbg { 
+  background: url(https://cdn.discordapp.com/attachments/424625590889480192/495683424988954625/t1.png); }
+
+#app-mortals .lds-fn { 
+  color:#aec2d6; }
+
+#app-mortals .lds-wbg h1 {
+  color:#aec2d6; }
+
+#app-mortals .lds-ti { 
+  background: #aec2d6;  }
+
+#app-mortals .lds-wtxt b { 
+  color:#aec2d6; }
+
+#app-mortals .lds-babg { 
+  background: rgba(174, 194, 214, 0.4); }
+
+#app-mortals .lds-aimg1b { 
+  border: 1px solid rgba(174, 194, 214, 0.6); }
+
+#app-mortals .lds-babg2 { 
+  background: rgba(174, 194, 214, 0.4); }
+
+#app-mortals .lds-aimg2b { 
+  border: 1px solid rgba(174, 194, 214, 0.6); }
+
+#app-mortals .lds-pibg { 
+  background: rgba(174, 194, 214); }
+
+#app-creations .lds-babg23 { 
+  background: rgba(153, 204, 153, 0.4); }
+
+#app-defilers .lds-babg23 { 
+  background: rgba(217, 140, 140, 0.4); }
+
+#app-divinity .lds-babg23 { 
+  background: rgba(212, 195, 119, 0.4); }
+
+#app-immortals .lds-babg23 { 
+  background: rgba(167, 153, 204, 0.4); }
+
+#app-mortals .lds-babg23 { 
+  background: rgba(174, 194, 214, 0.4); }
