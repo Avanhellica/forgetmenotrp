@@ -1,0 +1,114 @@
+/****************************************
+ Plotter Replies
+*****************************************/
+
+.plottflow { 
+  height: 250px;
+  width: 450px;
+  background-image: url(https://i.postimg.cc/P5D1q0Mp/flowers.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+  
+}
+
+.plottflowhead {
+  background:rgba(0,0,0,0.15);
+  text-align:center;
+  font-family:poppins;
+  text-transform:lowercase;
+  font-size:20px;
+  padding:10px;
+  color:rgba(214,175,173,1);
+}
+
+.plotthold { 
+  height:160px;
+  background: rgba(255, 255, 255, 0.2);
+  padding:20px;
+}
+
+.plotttxt { 
+  background:#e2e2e2;
+  height:100px;
+  padding:15px;
+  font-family:arial;
+  text-align:justify;
+  line-height:1.5;
+  color:#222;
+  font-size:11px;
+  overflow:auto;
+}
+
+.plottre {
+  background:#e2e2e2;
+  margin-top:10px;
+  padding:8px;
+  font-family: 'poppins';
+  font-size: 11px;
+  text-transform:uppercase;
+  font-weight:700;
+  text-align:center;
+  rgba(214,175,173,1);
+}
+
+.othplot {
+  height:auto;
+  width:300px;
+  border: 1px solid #ccc;
+  background-image: url(https://i.postimg.cc/P5D1q0Mp/flowers.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+  margin: auto;
+}
+
+.othheadp {
+  text-align:right;
+  padding:14px;
+  border-bottom: 1px solid #222;
+  font-family:'poppins';
+  font-size:12px;
+  letter-spacing:1.5px;
+  text-transform: uppercase;
+  background:rgba(0,0,0,0.8);
+  color:rgba(214,175,173,1);
+}
+
+.othwrit { 
+  margin:15px;
+  height:auto;
+  background:rgb(226, 226, 226, 0.9);
+  color:#222;
+  padding:10px;
+  border: 5px solid #222;  
+}
+
+.othwrittxt {
+  text-align:justify;
+  font-family: 'Arial';
+  font-size:11.5px;
+  line-height:1.5;
+}
+
+.othbottom { 
+  background:rgba(0,0,0,0.8);
+  color:rgba(214,175,173,1);
+  padding:10px;
+  font-family:'poppins';
+  font-size: 20px;
+  text-align:center;
+  text-transform:lowercase;
+  border-top: 1px solid #222;
+}
+
+.othheadp littleicons { 
+  font-size:15px;
+  color:rgba(214,175,173,1);
+  float:left;
+}
+
+.othheadp littleicons a { 
+text-decoration: none;
+color:rgba(214,175,173,1);
+}
